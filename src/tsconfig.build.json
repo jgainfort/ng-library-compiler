@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "es2015",
+    "target": "es2015",
+    "baseUrl": ".",
+    "stripInternal": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "outDir": "../../out-tsc/lib-es2015/",
+    "rootDir": ".",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "types": []
+  },
+  "files": [
+    "./index.ts"
+  ]
+}
